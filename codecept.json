@@ -1,0 +1,26 @@
+{
+  "output": "./output",
+  "helpers": {
+    "Puppeteer": {
+      "show": false
+    }
+  },
+  "include": {},
+  "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "gherkin": {
+    "features": "./features/*.feature",
+    "steps": [
+      "./step_definitions/steps.js"
+    ]
+  },
+  "plugins": {
+    "screenshotOnFail": {
+      "enabled": true
+    }
+  },
+  "timeout": 10000,
+  "name": "bdd"
+}
