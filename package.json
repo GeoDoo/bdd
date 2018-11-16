@@ -1,10 +1,16 @@
 {
+  "name": "cherry-pies-by-code",
   "private": true,
   "scripts": {
+    "start": "node server.js",
     "test": "codeceptjs run --steps"
   },
   "devDependencies": {
     "codeceptjs": "^1.4.5",
     "puppeteer": "^1.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }

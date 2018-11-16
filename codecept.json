@@ -2,6 +2,7 @@
   "output": "./output",
   "helpers": {
     "Puppeteer": {
+      "url": "http://localhost:3000",
       "show": false
     }
   },
@@ -13,7 +14,7 @@
   "gherkin": {
     "features": "./features/*.feature",
     "steps": [
-      "./step_definitions/steps.js"
+      "./step_definitions/pie.js"
     ]
   },
   "plugins": {
